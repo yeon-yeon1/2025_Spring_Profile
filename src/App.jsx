@@ -20,7 +20,7 @@ function App() {
       <GlobalStyle />
       <Router>
         <Routes>
-          <Route path="/profile" element={<Profile />} />
+          <Route path="/" element={<Profile />} />
         </Routes>
       </Router>
     </>
